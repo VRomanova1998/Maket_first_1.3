@@ -34,7 +34,7 @@
 body {
 font-family: 'TT Lakes Regular'; 
 font-size: 14px;
-margin: 0;
+margin: 0 auto;
 padding: 0;
 }
 
@@ -104,12 +104,14 @@ text-decoration: none;
 white-space: nowrap;
 padding: 10px;
 margin: 0 7px;
+display: inline-block;
 }
 
 .chapter:hover {
 border: 2px #B8FFEC solid;
 border-radius: 5px;
 background-color: white;
+padding: 7px;
 }
 
 .container {
